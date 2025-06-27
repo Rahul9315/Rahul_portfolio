@@ -27,7 +27,7 @@ You can see the live demo of the portfolio website [here]
 
 1. Clone the repository:
    ```
-  https://github.com/Rahul9315/Rahul_portfolio.git
+   git clone https://github.com/Rahul9315/Rahul_portfolio.git
    ```
 
 2. Install dependencies:
