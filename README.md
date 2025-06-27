@@ -1,14 +1,12 @@
 # Portfolio Website
 
-![Project Preview](https://raw.githubusercontent.com/SumatM/SumatM.github.io/275acda159c3989a95f3ca3feae780bd60e9f5c5/public/1686383168149.jpg)
-
 ## Description
 
 This is my personal portfolio website built to showcase my skills, projects, and a little bit about myself. The website is created using React, Chakra UI, and Framer Motion to provide an interactive and visually appealing user experience. The project includes a glass-style navigation bar, an input form, and animations to enhance the overall design.
 
 ## Demo
 
-You can see the live demo of the portfolio website [here](https://sumatm.github.io/).
+You can see the live demo of the portfolio website [here]
 
 ## Features
 
@@ -62,9 +60,9 @@ I am a passionate full-stack web developer with expertise in React and Next.js. 
 
 ## Contact
 
-- Portfolio: [https://sumatm.github.io/](https://sumatm.github.io/)
-- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/sumat-mallick-65b966227/)
-- GitHub: [My GitHub Profile](https://github.com/sumatm)
+- Portfolio: 
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/rahul-baghel-9a52a925b/)
+- GitHub: [My GitHub Profile](https://github.com/Rahul9315)
 
 
 ## Star and Fork
