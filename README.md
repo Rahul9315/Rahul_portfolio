@@ -29,7 +29,7 @@ You can see the live demo of the portfolio website [here](https://sumatm.github.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/SumatM/SumatM.github.io.git
+   git clone https://github.com/Rahul9315/Rahul_portfolio.git
    ```
 
 2. Install dependencies:
