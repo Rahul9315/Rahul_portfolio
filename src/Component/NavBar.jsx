@@ -86,6 +86,7 @@ export const NavBar = () => {
               <Text _hover={{cursor:'pointer'}} className="nav-link home">HOME</Text>
             </ScrollLink>
           </Box>
+
           <Box
             p="5px 15px"
             _hover={{ color: "#4DB6AC" }}
@@ -101,6 +102,7 @@ export const NavBar = () => {
               <Text _hover={{cursor:'pointer'}} className="nav-link about">ABOUT</Text>
             </ScrollLink>
           </Box>
+          
           <Box
             p="5px 15px"
             _hover={{ color: "#4DB6AC" }}

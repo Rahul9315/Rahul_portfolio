@@ -7,7 +7,7 @@ import {
   Link,
   Text,
 } from "@chakra-ui/react";
-import imgOlive from "./../Banner/IMG20220220130528FAce_edited-removebg-previewOlive.png";
+import imgOlive from "./../Banner/Profile.jpg";
 import resume from "./../Banner//Rahul-CV.pdf";
 import { motion } from "framer-motion";
 import { useContext } from "react";

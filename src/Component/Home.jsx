@@ -8,6 +8,7 @@ import GitCalender from "./GitCalender";
 import { useContext } from "react";
 import About from "./About";
 import { ThemeContext } from "./ThemeContext";
+import Certificates from "./Certificates";
 
 export default function Home() {
   const theme = useContext(ThemeContext);
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Skills />
       <Project />
+      <Certificates/>
       <GitCalender />
       <Footer />
     </Box>

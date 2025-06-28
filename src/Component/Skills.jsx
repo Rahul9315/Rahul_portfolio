@@ -43,7 +43,7 @@ export default function Skills() {
     //typescript,
     //express,
     mongodb,
-    //node,
+    node,
     //redux,
     //chakra,
     git,
