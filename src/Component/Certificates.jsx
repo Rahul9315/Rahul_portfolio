@@ -13,7 +13,8 @@ export default function Certificates() {
     <Box
       bg={mainTheme.theme.bg}
       p={{ base: "15px", sm: "20px", md: "45px" }}
-      id="projects"
+      //id="projects"
+      id="certificates"
     >
       {/* bar for decoration  */}
       <Box w="80%" margin="auto" borderTop="1.5px solid #00796B">
@@ -36,7 +37,7 @@ export default function Certificates() {
           mt="45px"
           ref={boxRef}
         >
-          {CertifiatesList?.map((project) => {
+          {CertifiatesList?.map((certificate) => {
             return (
               <Box  
                 p="0 20px"
@@ -53,7 +54,7 @@ export default function Certificates() {
                     color="#00796B"
                     className="project-title"
                   >
-                    {project.heading}
+                    {certificate.heading}
                   </Heading>
                 </Box>
                 <Box pb="25px" w="80%" borderTop="1.5px solid #00796B"></Box>
@@ -62,21 +63,21 @@ export default function Certificates() {
 
                 <img
                     style={{ width: "100%" }}
-                    src={project.img}
-                    alt={project.heading}
+                    src={certificate.img}
+                    alt={certificate.heading}
                 />
 
                 </Box>
                 <Box p="15px 0">
                   <Text fontWeight="bold" m="5px 0" color="#00796B">
-                    {project.title}
+                    {certificate.title}
                   </Text>
                   <Box w="60%" borderTop="1.5px solid #00796B"></Box>
                   <Text
                     color={mainTheme.theme.dText}
                     className="project-description"
                   >
-                    {project.description}
+                    {certificate.description}
                   </Text>
                 </Box>
 

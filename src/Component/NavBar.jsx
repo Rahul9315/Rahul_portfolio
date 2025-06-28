@@ -28,6 +28,7 @@ export const NavBar = () => {
       const aboutSection = document.getElementById("about");
       const skillsSection = document.getElementById("skills");
       const projectsSection = document.getElementById("projects");
+      const certificatesSection = document.getElementById("certificates");
       const contactSection = document.getElementById("contact");
 
       const scrollPosition = window.scrollY;
@@ -41,6 +42,8 @@ export const NavBar = () => {
         setActiveSection("skills");
       } else if (scrollPosition >= aboutSection.offsetTop) {
         setActiveSection("about");
+      } else if (scrollPosition >= certificatesSection.offsetTop) {
+        setActiveSection("certificates");
       } else {
         setActiveSection("home");
       }
@@ -102,7 +105,7 @@ export const NavBar = () => {
               <Text _hover={{cursor:'pointer'}} className="nav-link about">ABOUT</Text>
             </ScrollLink>
           </Box>
-          
+
           <Box
             p="5px 15px"
             _hover={{ color: "#4DB6AC" }}
@@ -133,6 +136,26 @@ export const NavBar = () => {
               <Text className="nav-link projects" _hover={{cursor:'pointer'}}>PROJECTS</Text>
             </ScrollLink>
           </Box>
+
+          <Box
+            p="5px 15px"
+            _hover={{ color: "#4DB6AC" }}
+            fontWeight="bolder"
+            color={activeSection === "certificates" ? "#4DB6AC" : "#00796B"}
+          >
+            <ScrollLink
+              to="certificates"
+              smooth={true}
+              duration={500}
+              onClick={onClose}
+            >
+              <Text className="nav-link certificates" _hover={{cursor:'pointer'}}>CERTIFICATES</Text>
+            </ScrollLink>
+          </Box>
+
+
+
+
           <Box
             p="5px 15px"
             _hover={{ color: "#4DB6AC" }}
@@ -275,6 +298,24 @@ export const NavBar = () => {
                 <Text>PROJECTS</Text>
               </ScrollLink>
             </Box>
+
+            <Box
+              p="5px 15px"
+              bg="#26A69A"
+              color="white"
+              fontWeight="bolder"
+              m="10px 0"
+            >
+              <ScrollLink
+                to="certificates"
+                smooth={true}
+                duration={500}
+                onClick={onClose}
+              >
+                <Text>CERTIFICATES</Text>
+              </ScrollLink>
+            </Box>
+
             <Box
               p="5px 15px"
               bg="#26A69A"
