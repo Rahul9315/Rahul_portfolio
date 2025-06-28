@@ -75,8 +75,8 @@ export const express = {
 export const tailwind = {
   title: "Tailwind CSS",
   img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
-  wid: "65%",
-  swid: "40%",
+  wid: "70%",
+  swid: "50%",
 };
 
 export const nextjs = {
@@ -117,7 +117,58 @@ export const promptEngineering = {
 
 export const mySQL = {
   title: "MySQL",
-  img: "https://www.notion.so/image/https%3A%2F%2Fpngimg.com%2Fd%2Fmysql_PNG9.png?table=block&id=27e6b5e3-e888-4802-9c0b-2e5ca6bdf31a&spaceId=5247e3c7-a9ff-4596-9c82-e08b13f4ea9d&width=250&userId=af1a9bd4-c5ca-4c4b-88f4-f0e87ce2512a&cache=v2",
+  img: "https://img.icons8.com/fluency/240/mysql-logo.png",
   wid: "70%",
-  swid: "35%",
+  swid: "40%",
+};
+
+export const java = {
+  title: "Java",
+  img: "https://img.icons8.com/fluency/240/java-coffee-cup-logo.png",
+  wid: "70%",
+  swid: "40%",
+};
+
+export const php = {
+  title: "PHP",
+  img: "https://img.icons8.com/external-those-icons-flat-those-icons/96/external-PHP-programming-and-development-those-icons-flat-those-icons.png",
+  wid: "70%",
+  swid: "40%",
+};
+
+export const c_programming = {
+  title: "C Pragramming",
+  img: "https://img.icons8.com/fluency/240/c-programming.png",
+  wid: "70%",
+  swid: "40%",
+};
+export const kotlin = {
+  title: "Kotlin",
+  img: "https://img.icons8.com/color/480/kotlin.png",
+  wid: "70%",
+  swid: "40%",
+};
+
+export const machinelearning = {
+  title: "Machine learning",
+  img: "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png",
+  wid: "70%",
+  swid: "60%",
+};
+
+
+export const wireshark = {
+  title: "Wireshark",
+  img: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Wireshark_icon_new.png",
+  wid: "70%",
+  swid: "40%",
+};
+
+
+
+export const rstudio = {
+  title: "R Studio",
+  img: "https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" ,
+  wid: "70%",
+  swid: "80%",
 };

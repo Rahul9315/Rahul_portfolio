@@ -11,13 +11,21 @@ import {
   javascript,
   mongodb,
   nextjs,
+  php,
+  c_programming,
+  kotlin,
+  wireshark,
+  pandas,
+  machinelearning,
   node,
   promptEngineering,
   python,
   react,
+  java,
   redux,
   tailwind,
   typescript,
+  rstudio,
   mySQL
 } from "../db/techstack";
 
@@ -31,17 +39,27 @@ export default function Skills() {
     css,
     javascript,
     react,
-    nextjs,
-    typescript,
-    express,
+    //nextjs,
+    //typescript,
+    //express,
     mongodb,
-    node,
-    redux,
-    chakra,
+    //node,
+    //redux,
+    //chakra,
     git,
     python,
-    promptEngineering,
-    mySQL
+    //promptEngineering,
+    mySQL,
+    rstudio,
+    java,
+    php,
+    c_programming,
+    kotlin,
+    wireshark,
+    //pandas,
+    machinelearning,
+    //
+    tailwind
   ];
 
   return (

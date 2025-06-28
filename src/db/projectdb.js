@@ -23,8 +23,8 @@ export const ProjectList = [
     description:
       "Spartan is a website dedicated to men's fashion, with a focus on formal wear. The website provides a platform for customers to create their own customized clothing, allowing them to tailor their clothing to fit their unique style and preferences.",
     techStack: [react, chakra, javascript, css],
-    liveLink: "https://marvelous-crack-5191.vercel.app/",
-    gitLink: "https://github.com/SumatM/Spartan",
+    //liveLink: "https://marvelous-crack-5191.vercel.app/",
+    gitLink: "#",
   },
   {
     heading: "AṞIVU",

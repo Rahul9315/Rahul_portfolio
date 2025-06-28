@@ -59,13 +59,17 @@ export default function Project() {
                 <Box pb="25px" w="80%" borderTop="1.5px solid #00796B"></Box>
 
                 <Box w={{ base: "105%", sm: "100%" }}>
-                  <Link to={project.liveLink} target="_blank">
+
+
+                  <Link to={project.gitLink} target="_blank">
                     <img
                       style={{ width: "100%" }}
                       src={project.img}
                       alt={project.heading}
                     />
                   </Link>
+                
+                
                 </Box>
                 <Box p="15px 0">
                   <Text fontWeight="bold" m="5px 0" color="#00796B">
@@ -137,6 +141,8 @@ export default function Project() {
                         </Button>
                       </a>
                     </Box>
+
+                    {/*
                     <Box>
                       <a target="_blank" href={project.liveLink}>
                         <Button
@@ -152,6 +158,7 @@ export default function Project() {
                         </Button>
                       </a>
                     </Box>
+                    */}
                   </Flex>
                 </Box>
               </Box>
