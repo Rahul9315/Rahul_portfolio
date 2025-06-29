@@ -16,6 +16,8 @@ import {
   kotlin,
   wireshark,
   pandas,
+  flaskicon,
+  androidstudio,
   machinelearning,
   node,
   promptEngineering,
@@ -23,6 +25,8 @@ import {
   react,
   java,
   redux,
+  linux,
+  kalilinux,
   tailwind,
   typescript,
   rstudio,
@@ -39,17 +43,21 @@ export default function Skills() {
     css,
     javascript,
     react,
+    flaskicon,
     //nextjs,
     //typescript,
     //express,
     mongodb,
     node,
+    androidstudio,
     //redux,
     //chakra,
     git,
     python,
     //promptEngineering,
     mySQL,
+    linux,
+    kalilinux,
     rstudio,
     java,
     php,
@@ -58,7 +66,7 @@ export default function Skills() {
     wireshark,
     //pandas,
     machinelearning,
-    //
+    
     tailwind
   ];
 

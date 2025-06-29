@@ -168,21 +168,21 @@ export const linux = {
   title: "Linux",
   img: "https://img.icons8.com/external-those-icons-flat-those-icons/96/external-Linux-logos-and-brands-those-icons-flat-those-icons.png",
   wid: "70%",
-  swid: "60%",
+  swid: "40%",
 };
 
 export const kalilinux = {
-  title: "Linux",
+  title: "Kali Linux",
   img: "https://img.icons8.com/color/480/kali-linux.png",
   wid: "70%",
-  swid: "60%",
+  swid: "40%",
 };
 
-export const fask = {
-  title: "Linux",
+export const flaskicon = {
+  title: "Flask",
   img: "https://img.icons8.com/ios-filled/500/flask.png",
-  wid: "90%",
-  swid: "10%",
+  wid: "70%",
+  swid: "40%",
 };
 
 export const rstudio = {
@@ -191,3 +191,11 @@ export const rstudio = {
   wid: "70%",
   swid: "80%",
 };
+
+export const androidstudio = {
+  title: "Android Studio",
+  img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Android_Studio_Logo_2024.svg" ,
+  wid: "70%",
+  swid: "40%",
+};
+
