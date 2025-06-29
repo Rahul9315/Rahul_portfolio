@@ -164,6 +164,13 @@ export const wireshark = {
   swid: "40%",
 };
 
+export const linux = {
+  title: "Linux",
+  img: "https://img.icons8.com/external-those-icons-flat-those-icons/96/external-Linux-logos-and-brands-those-icons-flat-those-icons.png",
+  wid: "70%",
+  swid: "60%",
+};
+
 
 
 export const rstudio = {

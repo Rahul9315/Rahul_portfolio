@@ -1,4 +1,5 @@
 import {
+  c_programming,
   chakra,
   chartjs,
   css,
@@ -11,9 +12,14 @@ import {
   promptEngineering,
   react,
   redux,
+  linux,
   tailwind,
   typescript,
 } from "./techstack";
+
+import PortfolioImg from '../images/portfolio.png';
+import DaemonManagerImg from '../images/daemon-manager.png';
+
 
 export const ProjectList = [
   {
@@ -27,24 +33,22 @@ export const ProjectList = [
     gitLink: "#",
   },
   {
-    heading: "AṞIVU",
-    img: "https://raw.githubusercontent.com/SumatM/Arivu/653364fa661bbda14f9070ea6f65bd6bf0412e32/frontend/public/Screenshot%20(711).png",
-    title: "Coursera Clone",
+    heading: "DAEMON MANAGER",
+    img: DaemonManagerImg,
+    title: "Automated Daemon Manager (C/Linux)",
     description:
-      "Arivu is an e-learning platform similar to Coursera. It allows students, teachers, and site administrators to engage in live lectures, post lectures, and perform daily activities. The platform includes features for banning suspicious users, ensuring a secure learning environment.",
-    techStack: [node, express, mongodb, react, redux, chakra, tailwind],
-    liveLink: "https://puny-potato-4945.vercel.app/",
-    gitLink: "https://github.com/SumatM/Arivu",
+      "A Linux-based background daemon system built in C for automated file transfers, backups, and monitoring. It supports scheduled and manual triggers using fork(), message queues, and FIFO pipes. Secure directory locking, detailed logging (daemon_log.txt), and error handling ensure reliability. The system follows modular design principles and includes a Makefile for easy compilation, execution, and control.",
+    techStack: [c_programming, linux ],
+    gitLink: "https://github.com/Rahul9315/Daemon-Manager",
   },
   {
-    heading: " INDIAN STATES",
-    img: "https://raw.githubusercontent.com/SumatM/Indian-States/main/UI%20images/Screenshot%20(596).png",
-    title: " American Eagle Clone",
+    heading: "  PORTFOLIO WEBPAGE ",
+    img: PortfolioImg,
+    title: " My Portfolio ",
     description:
-      "Indian States offers a convenient shopping experience with a user-friendly interface and a wide range of products from various brands. Customers can easily find what they are looking for, and can also filter products based on their preferences such as size, color, and price.",
-    techStack: [html, javascript, css],
-    liveLink: "https://indian-states.netlify.app/index.html",
-    gitLink: "https://github.com/SumatM/Indian-States",
+      "This is my personal portfolio website built to showcase my skills, projects, and a little bit about myself. The website is created using React, Chakra UI, and Framer Motion to provide an interactive and visually appealing user experience. The project includes a glass-style navigation bar, an input form, and animations to enhance the overall design.",
+    techStack: [html, javascript, css , chakra, react ],
+    gitLink: "https://github.com/Rahul9315/Rahul_portfolio",
   },
   {
     heading: "TODO APP",
@@ -77,68 +81,6 @@ export const ProjectList = [
     liveLink: "https://joke-indol.vercel.app/",
     gitLink: "https://github.com/SumatM/joke_genrator",
   },
-  {
-    heading: "Code-Ninja",
-    img: "https://raw.githubusercontent.com/SumatM/Code-Ninja/43e9d8f70d5e16bede959a47347ffe46c7a0d263/frontend/src/assets/Screenshot%20(758).png",
-    title: "Code Converter, Code Debugger",
-    description:
-      "Experience the future of coding with Code Ninja. Our advanced tool, powered by OpenAI API, offers code conversion, quality checks, and debugging. Elevate your coding skills, write error-free code, and boost productivity with Code Ninja.",
-    techStack: [react, typescript, chakra, promptEngineering, node],
-    liveLink: "https://code-converter-brown.vercel.app/",
-    gitLink: "https://github.com/SumatM/Code-Ninja",
-  },
-  {
-    heading: "E.M.S",
-    img: "https://raw.githubusercontent.com/SumatM/typeScript-learning/e1f49f5f02d1400869046f783090a7f8762b7c47/mock_demo/frontend/src/assets/Screenshot%20(759).png",
-    title: "Employee Management System",
-    description:
-      "Employee Management System with authentication, authorization, sorting, filtering, pagination, and search capabilities. Seamlessly manage employees, tracking their data efficiently and ensuring secure access. Simplify HR tasks with this comprehensive solution.",
-    techStack: [react, typescript, chakra, redux, node, express, mongodb],
-    liveLink: "https://ems-ebon.vercel.app/",
-    gitLink:
-      "https://github.com/SumatM/typeScript-learning/tree/main/mock_demo",
-  },
-  {
-    heading: "Aroma",
-    img: "https://raw.githubusercontent.com/SumatM/Zomato_clone/2602b3d75a1d9c67084add7af6229c9a152ec9a1/frontend/public/Screenshot_20230807_005739.png",
-    title: "Zomato Clone",
-    description: "Working... ",
-    techStack: [react, tailwind, redux, node, mongodb, express],
-    liveLink: "https://aroma-zomato.vercel.app/",
-    gitLink: "https://github.com/SumatM/Zomato_clone",
-  },
+
 ];
 
-const extra = [
-  {
-    heading: "DIAMONDLAND",
-    img: "https://raw.githubusercontent.com/chaudhari014/legit-building-8885/main/banner/Screenshot%20(672).png",
-    title: " CaratLane Clone",
-    description:
-      "Diamondland is an e-commerce website specializing in jewelry, offering customers a wide range of high-quality jewelry at affordable prices. They also provide personalized gift options for your loved ones.",
-    techStack: [html, javascript, css],
-    liveLink: "https://diamond-land.netlify.app/index.html",
-    gitLink: "https://github.com/chaudhari014/legit-building-8885",
-  },
-  ,
-  {
-    heading: "SPENDWISER",
-    img: "https://user-images.githubusercontent.com/112808279/238118882-e4441c6a-8b1e-418d-b228-7132e40a40d4.png",
-    title: "Money Manager App",
-    description:
-      " SpendWiser is an invaluable tool for anyone looking to manage their monthly budget and keep track of their spending. With its user-friendly interface and comprehensive features, SpendWiser makes it easy to stay on top of your finances and ensure that you are meeting your financial goals.",
-    techStack: [react, chakra, redux, chartjs],
-    liveLink: "https://hilarious-wood-568-fw21-0275-updated1.vercel.app/",
-    gitLink: "https://github.com/SumatM/SpendWiser",
-  },
-  {
-    heading: " TEXT TO SPEECH",
-    img: "https://raw.githubusercontent.com/SumatM/Text-To-Speech/main/Screenshot%20(712).png",
-    title: " JavaScript Speech Synthesis",
-    description:
-      "WebPage that converts written text into spoken words. Utilized natural language processing techniques to analyze and interpret the text, generating synthesized speech output.",
-    techStack: [html, javascript, css],
-    liveLink: "https://text-to-speech-sumat.netlify.app/",
-    gitLink: "https://github.com/SumatM/Text-To-Speech",
-  },
-];
