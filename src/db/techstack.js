@@ -171,7 +171,19 @@ export const linux = {
   swid: "60%",
 };
 
+export const kalilinux = {
+  title: "Linux",
+  img: "https://img.icons8.com/color/480/kali-linux.png",
+  wid: "70%",
+  swid: "60%",
+};
 
+export const fask = {
+  title: "Linux",
+  img: "https://img.icons8.com/ios-filled/500/flask.png",
+  wid: "90%",
+  swid: "10%",
+};
 
 export const rstudio = {
   title: "R Studio",

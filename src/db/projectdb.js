@@ -7,30 +7,35 @@ import {
   html,
   javascript,
   mongodb,
+  mySQL,
   nextjs,
   node,
+  kalilinux,
+  machinelearning,
   promptEngineering,
   react,
   redux,
   linux,
+  fask,
   tailwind,
   typescript,
+  python,
 } from "./techstack";
 
 import PortfolioImg from '../images/portfolio.png';
 import DaemonManagerImg from '../images/daemon-manager.png';
-
+import Nidps from '../images/Network-Intrusion-Detection-System.png';
 
 export const ProjectList = [
   {
-    heading: "SPARTAN",
-    img: "https://raw.githubusercontent.com/SumatM/Spartan/main/readmeImages/Screenshot%20(504).png",
-    title: "Charles Tyrwhitt Clone",
+    heading: "NIDPS",
+    img: Nidps,
+    title: "Network Intrusion Detection and Prevention System",
     description:
-      "Spartan is a website dedicated to men's fashion, with a focus on formal wear. The website provides a platform for customers to create their own customized clothing, allowing them to tailor their clothing to fit their unique style and preferences.",
-    techStack: [react, chakra, javascript, css],
+      "A Python-based NIDPS that captures real-time network traffic using PyShark and provides a Flask-powered web dashboard for intrusion detection and response. Supports both automatic and manual IP blocking, live monitoring, and cross-platform deployment (Linux/Windows). Ideal for use on Linux VMs, it offers a lightweight yet effective solution for securing networks with real-time visibility and control.",
+    techStack: [kalilinux,linux , python, html,javascript, css,machinelearning,mySQL,fask],
     //liveLink: "https://marvelous-crack-5191.vercel.app/",
-    gitLink: "#",
+    gitLink: "https://github.com/Rahul9315/Network-Intrusion-Detection-and-Prevention-System-NIDPS-",
   },
   {
     heading: "DAEMON MANAGER",
