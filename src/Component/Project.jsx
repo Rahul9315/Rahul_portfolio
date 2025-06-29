@@ -104,10 +104,10 @@ export default function Project() {
                       return (
                         <Box>
                           <Flex justifyContent="center">
-                            {(tech?.title == "Express" ||
-                              tech?.title == "Next.js") &&
-                            (mainTheme?.theme.bg == "black" ||
-                              mainTheme?.theme.bg == "#08105B") ? (
+                            {(tech?.title === "Express" ||
+                              tech?.title === "Next.js") &&
+                            (mainTheme?.theme.bg === "black" ||
+                              mainTheme?.theme.bg === "#08105B") ? (
                               tech?.svg({ size: "2.5rem", color: "#757575" })
                             ) : (
                               <img
