@@ -46,11 +46,8 @@ export default function Footer() {
   function handleSubmit() {
     const { name, email, number, message } = form;
 
-    if (name && email && number && message) {
-      if (!validateNumber(number)) {
-        alert("Please enter a valid 10 digit Number.");
-        return;
-      }
+    if (name && email  && message) {
+      
       if (validateEmail(email)) {
         emailjs
           .send(
