@@ -82,11 +82,11 @@ export const ProjectList = [
   {
     heading: "Tenant Book",
     img: "https://github.com/Rahul9315/Rahul_portfolio/blob/main/src/images/TenantBook.png?raw=true",
-    title: "Android App for Landlords",
+    title: "App for Landlords",
     description:
-      "Tenant Book is a Java-based Android application developed to help landlords efficiently manage tenant details, rent payment records, and lease information. The app integrates with Supabase for secure real-time database, authentication, and cloud file storage. It supports features like adding new tenants, tracking due rents, and updating payment history. Designed with a clean UI and offline-first approach, Tenant Book ensures convenience, data reliability, and accessibility for property owners on the go.",
-    techStack: [androidstudio, java, supabaseIcon ],
-    gitLink: "https://github.com/Rahul9315/Tenant-Book",
+      "Tenant Book is a lightweight, web-based CRM built for landlords to manage rental information with ease. Developed using React.js for the frontend and Supabase for backend services, it enables tracking of tenant records, rent payments, and property details in a structured SQL-like database. The system offers intuitive data filtering, real-time updates, and summary dashboards to provide clear visibility into occupancy and payment status. Styled with CSS and integrated with Python logic for dynamic functionalities.",
+    techStack: [python, css, react, javascript,html, supabaseIcon ],
+    gitLink: "https://rahulbaghel.netlify.app/",
   },
 
 ];
