@@ -23,7 +23,7 @@ export default function Certificates() {
       <Box m="auto" textAlign="center">
         <Box pt="55px">
           <Heading color="#00796B" size="2xl">
-            CERTIFICATES
+            CERTIFICATON
           </Heading>
         </Box>
         <Grid

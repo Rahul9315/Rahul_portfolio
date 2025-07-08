@@ -46,9 +46,4 @@ export const CertifiatesList = [
       "Gained a strong foundation in the Japanese language, including grammar, vocabulary, sentence structure, and pronunciation. Practiced basic conversational skills and cultural nuances — enhancing my global mindset and communication skills.",
   },
 
-  
-  
-  
-
-
 ];
