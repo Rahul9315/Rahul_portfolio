@@ -6,7 +6,7 @@ This is my personal portfolio website built to showcase my skills, projects, and
 
 ## Demo
 
-You can see the live demo of the portfolio website [here]
+You can see the live demo of the portfolio website [here](https://rahulbaghel.netlify.app/)
 
 ## Features
 
