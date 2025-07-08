@@ -188,9 +188,7 @@ export const NavBar = () => {
                 <Text
                   className="nav-link contact"
                   onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1cSPRPc76dN3tc1gm0lJbP6YBTkBhtd9Y/view?usp=sharing"
-                    )
+                    window.open(resume)
                   }
                   
                 >
@@ -352,7 +350,7 @@ export const NavBar = () => {
                   id="resume-button-1"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1cSPRPc76dN3tc1gm0lJbP6YBTkBhtd9Y/view?usp=sharing"
+                      resume
                     )
                   }
                 >
