@@ -199,3 +199,10 @@ export const androidstudio = {
   swid: "40%",
 };
 
+
+export const supabaseIcon = {
+  title: "Supabase",
+  img: "https://img.icons8.com/fluency/240/supabase.png" ,
+  wid: "70%",
+  swid: "40%",
+};
