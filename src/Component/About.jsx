@@ -83,9 +83,9 @@ export default function About() {
               onClick={() =>
                 window.open(
                   /*
-                  "https://drive.google.com/file/d/1ni4YYEIFx2EWl7TNt-B8ymbVc5wmK7qt/view?usp=drive_link"
-                */
                   "https://drive.google.com/file/d/1cSPRPc76dN3tc1gm0lJbP6YBTkBhtd9Y/view?usp=sharing"
+                */
+                  resume
                 )
               }
             >
