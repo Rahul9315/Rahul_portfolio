@@ -77,7 +77,16 @@ export const ProjectList = [
     techStack: [c_programming , linux],
     gitLink: "https://github.com/Rahul9315/Secure-Multithreaded-File-Transfer-System-C---Linux-",
   },
- 
+
+  {
+    heading: "Tenant Book",
+    img: SecureMultithreadedFileTransferSystemImg,
+    title: "Android App for Landlords",
+    description:
+      "Tenant Book is a Java-based Android application developed to help landlords efficiently manage tenant details, rent payment records, and lease information. The app integrates with Supabase for secure real-time database, authentication, and cloud file storage. It supports features like adding new tenants, tracking due rents, and updating payment history. Designed with a clean UI and offline-first approach, Tenant Book ensures convenience, data reliability, and accessibility for property owners on the go.",
+    techStack: [c_programming , linux],
+    gitLink: "https://github.com/Rahul9315/Secure-Multithreaded-File-Transfer-System-C---Linux-",
+  },
 
 ];
 
