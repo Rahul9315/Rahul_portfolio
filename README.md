@@ -56,7 +56,7 @@ You can see the live demo of the portfolio website [here](https://rahulbaghel.ne
 
 ## About Me
 
-I am a passionate full-stack web developer with expertise in React and Next.js. I enjoy building interactive and user-friendly web applications. This portfolio showcases some of my best work and projects I've worked on.
+I am a passionate full-stack web developer. I enjoy building interactive and user-friendly applications. This portfolio showcases some of my best work and projects I've worked on.
 
 ## Contact
 
