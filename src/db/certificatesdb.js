@@ -3,6 +3,7 @@ import Japanese from '../images/Japanese .png';
 import KotlinandJava from '../images/ktlin and Java.png';
 import PythonBootcamp from '../images/Python Bootcamp.png';
 import Sjogcertificate from '../images/sjog_certificate.png';
+
 export const CertifiatesList = [
 
   {
