@@ -32,6 +32,27 @@ import SecureMultithreadedFileTransferSystemImg from '../images/Secure-Multithre
 import talkingClockImg from '../images/talking clock.png';
 
 export const ProjectList = [
+
+  {
+    heading: "Talking Clock",
+    title: "Accessibility-Focused Android App",
+    img: talkingClockImg,
+    description:
+      "Contributed to the development of an Android app supporting individuals with special needs by announcing time and setting daily alarms. Implemented backend logic using Java and XML in Android Studio, with minor database integration for user preferences. Collaborated with co-designers to create a simple, accessible interface tailored to the cognitive abilities of the users.",
+    techStack: [java, mySQL, androidstudio],
+    gitLink: "https://github.com/Rahul9315/TalkingClock",
+  },
+
+  {
+    heading: "  PORTFOLIO WEBPAGE ",
+    img: PortfolioImg,
+    title: " My Portfolio ",
+    description:
+      "This is my personal portfolio website built to showcase my skills, projects, and a little bit about myself. The website is created using React, Chakra UI, and Framer Motion to provide an interactive and visually appealing user experience. The project includes a glass-style navigation bar, an input form, and animations to enhance the overall design.",
+    techStack: [html, javascript, css , chakra, react ],
+    gitLink: "https://github.com/Rahul9315/Rahul_portfolio",
+  },
+
   {
     heading: "NIDPS",
     img: NidpsImg,
@@ -42,6 +63,17 @@ export const ProjectList = [
     //liveLink: "https://marvelous-crack-5191.vercel.app/",
     gitLink: "https://github.com/Rahul9315/Network-Intrusion-Detection-and-Prevention-System-NIDPS-",
   },
+
+  {
+    heading: "Tenant Book",
+    img: "https://github.com/Rahul9315/Rahul_portfolio/blob/main/src/images/TenantBook.png?raw=true",
+    title: "App for Landlords",
+    description:
+      "Designed and developed a self-initiated Tenant Book Data App, a lightweight CRM-style web tool for landlords to manage tenant and payment records. Built the full stack using Python, Flask, SQL, JavaScript, HTML, and CSS. Implemented database structures, backend logic, and interactive UI with features like data filtering and summaries. The project streamlined rental data management and showcased my end-to-end development capabilities.",
+    techStack: [python, css, flaskicon, javascript,html ],
+    gitLink: "https://rahulbaghel.netlify.app/",
+  },
+  
   {
     heading: "DAEMON MANAGER",
     img: DaemonManagerImg,
@@ -51,24 +83,9 @@ export const ProjectList = [
     techStack: [c_programming, linux ],
     gitLink: "https://github.com/Rahul9315/Daemon-Manager",
   },
-  {
-    heading: "  PORTFOLIO WEBPAGE ",
-    img: PortfolioImg,
-    title: " My Portfolio ",
-    description:
-      "This is my personal portfolio website built to showcase my skills, projects, and a little bit about myself. The website is created using React, Chakra UI, and Framer Motion to provide an interactive and visually appealing user experience. The project includes a glass-style navigation bar, an input form, and animations to enhance the overall design.",
-    techStack: [html, javascript, css , chakra, react ],
-    gitLink: "https://github.com/Rahul9315/Rahul_portfolio",
-  },
-  {
-    heading: "Talking Clock",
-    title: "Accessibility-Focused Android App",
-    img: talkingClockImg,
-    description:
-      "A Java-based Android app designed for individuals with disabilities to help them manage time independently. Features include an easy-to-navigate interface, customizable alarms, and text-to-speech functionality for time and reminders. Users or caregivers can add alarms with audio or visual cues. Built with accessibility in mind, the app was co-designed with end users to ensure it’s intuitive, inclusive, and helpful for daily time management and planning.",
-    techStack: [java, mySQL, androidstudio],
-    gitLink: "https://github.com/Rahul9315/TalkingClock",
-  },
+  
+  
+
   {
     heading: "Secure Multithreaded File Transfer System",
     img: SecureMultithreadedFileTransferSystemImg,
@@ -79,15 +96,7 @@ export const ProjectList = [
     gitLink: "https://github.com/Rahul9315/Secure-Multithreaded-File-Transfer-System-C---Linux-",
   },
 
-  {
-    heading: "Tenant Book",
-    img: "https://github.com/Rahul9315/Rahul_portfolio/blob/main/src/images/TenantBook.png?raw=true",
-    title: "App for Landlords",
-    description:
-      "Tenant Book is a lightweight, web-based CRM built for landlords to manage rental information with ease. Developed using React.js for the frontend and Supabase for backend services, it enables tracking of tenant records, rent payments, and property details in a structured SQL-like database. The system offers intuitive data filtering, real-time updates, and summary dashboards to provide clear visibility into occupancy and payment status. Styled with CSS and integrated with Python logic for dynamic functionalities.",
-    techStack: [python, css, react, javascript,html, supabaseIcon ],
-    gitLink: "https://rahulbaghel.netlify.app/",
-  },
+  
 
 ];
 

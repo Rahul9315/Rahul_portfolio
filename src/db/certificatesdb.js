@@ -16,10 +16,18 @@ export const CertifiatesList = [
 
   {
     
-    img: Sjogcertificate,
-    title: "Certificate of Contribution in SJOG",
+    img: JavaImg,
+    title: "Java Programming",
     description:
-    "As part of the TU Dublin CoDesign Team Projects 2023–2024, I developed a Talking Clock Android application for Saint John of God (SJOG) services. Designed using Java and Android Studio, the app assists individuals with visual or cognitive impairments by providing voice-based time notifications. The project was built in collaboration with real-world users and emphasized accessibility, usability, and inclusive design under faculty guidance.",
+    "Developed solid command over Java from scratch to advanced topics. Learned object-oriented programming, data structures, exception handling, and core Java APIs. Built projects and mastered Java logic building useful for both backend and Android development.",
+  },
+
+  {
+    
+    img: Sjogcertificate,
+    title: "Certificate for Significant Contribution",
+    description:
+    "Awarded for playing a key role as the backend developer in a collaborative team project focused on inclusive design. Took ownership of implementing core backend functionalities while actively supporting team members in their respective roles, including frontend development and user testing. Demonstrated strong technical leadership, cross-functional collaboration, and effective communication throughout the project.",
   },
 
   {
@@ -30,13 +38,7 @@ export const CertifiatesList = [
     "Learned to build Android apps from scratch using both Java and Kotlin. Covered Android Studio, UI design, activities, fragments, and integrating APIs. Built functional mobile apps and understood the lifecycle of Android development.",
   },
   
-  {
-    
-    img: JavaImg,
-    title: "Java Programming",
-    description:
-    "Developed solid command over Java from scratch to advanced topics. Learned object-oriented programming, data structures, exception handling, and core Java APIs. Built projects and mastered Java logic building useful for both backend and Android development.",
-  },
+
 
   {
     //heading: "AṞIVU",

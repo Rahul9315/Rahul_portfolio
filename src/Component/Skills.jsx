@@ -39,30 +39,32 @@ export default function Skills() {
   // console.log(mainTheme)
 
   const skills = [
+    python,
+    java,
+    c_programming,
     html,
     css,
     javascript,
+
     react,
     flaskicon,
     //nextjs,
     //typescript,
-    //express,
+    express,
     mongodb,
-    node,
+    //node,
     androidstudio,
     //redux,
     //chakra,
     git,
-    python,
+    
     //promptEngineering,
     mySQL,
     linux,
     kalilinux,
     rstudio,
-    java,
-    php,
-    c_programming,
-    kotlin,
+    
+    
     wireshark,
     //pandas,
     machinelearning,
