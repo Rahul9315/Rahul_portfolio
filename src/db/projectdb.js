@@ -71,7 +71,7 @@ export const ProjectList = [
     title: "Expense Tracker Mobile App",
     description:
       "A cross-platform mobile app designed to help users track daily expenses, categorize spending, and visualize budget trends. Built using React Native with a backend powered by Express.js and Supabase for authentication and real-time database storage. Deployed via Render, the app offers a secure and intuitive interface, ensuring seamless financial management on the go using modern JavaScript technologies.",
-    techStack: [javascript, react , supabaseIcon, express],
+    techStack: [javascript, react , supabaseIcon, express , mySQL],
     //liveLink: "https://marvelous-crack-5191.vercel.app/",
     gitLink: "https://github.com/Rahul9315/ExpenseTrackerv1.0",
   },
