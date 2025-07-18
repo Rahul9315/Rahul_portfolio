@@ -30,6 +30,7 @@ import DaemonManagerImg from '../images/daemon-manager.png';
 import NidpsImg from '../images/Network-Intrusion-Detection-System.png';
 import SecureMultithreadedFileTransferSystemImg from '../images/Secure-Multithreaded-File-Transfer-System.png';
 import talkingClockImg from '../images/talking clock.png';
+import ExpenseTrackerImg from '../images/ExpenseTracker.png';
 
 export const ProjectList = [
 
@@ -63,6 +64,18 @@ export const ProjectList = [
     //liveLink: "https://marvelous-crack-5191.vercel.app/",
     gitLink: "https://github.com/Rahul9315/Network-Intrusion-Detection-and-Prevention-System-NIDPS-",
   },
+
+  {
+    heading: "Expense Tracker",
+    img: ExpenseTrackerImg,
+    title: "Expense Tracker Mobile App",
+    description:
+      "A cross-platform mobile app designed to help users track daily expenses, categorize spending, and visualize budget trends. Built using React Native with a backend powered by Express.js and Supabase for authentication and real-time database storage. Deployed via Render, the app offers a secure and intuitive interface, ensuring seamless financial management on the go using modern JavaScript technologies.",
+    techStack: [javascript, react , supabaseIcon, express],
+    //liveLink: "https://marvelous-crack-5191.vercel.app/",
+    gitLink: "https://github.com/Rahul9315/ExpenseTrackerv1.0",
+  },
+
 
   {
     heading: "Tenant Book",
