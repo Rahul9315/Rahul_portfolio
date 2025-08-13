@@ -3,8 +3,18 @@ import Japanese from '../images/Japanese .png';
 import KotlinandJava from '../images/ktlin and Java.png';
 import PythonBootcamp from '../images/Python Bootcamp.png';
 import Sjogcertificate from '../images/sjog_certificate.jpeg';
+import metaBackendDeveloper from '../images/MetaBack-EndDeveloper 13-08-2025.jpg'
 
 export const CertifiatesList = [
+
+  {
+    //heading: " INDIAN STATES",
+    img: metaBackendDeveloper,
+    title: "Meta Back-End Developer Professional Certificate",
+    description:
+      "Completed Meta's professional certificate program on back-end development. Gained expertise in Python, Django, APIs, databases, and version control. Built and deployed real-world projects applying back-end principles, cloud integration, and Agile practices.",
+  
+  },
 
   {
     //heading: " INDIAN STATES",
