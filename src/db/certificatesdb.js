@@ -10,7 +10,7 @@ export const CertifiatesList = [
 
   {
     //heading: " INDIAN STATES",
-    img: googlecloudcertificate,
+    img: metaBackendDeveloper,
     title: "Meta Back-End Developer Professional Certificate",
     description:
       "Completed Meta's professional certificate program on back-end development. Gained expertise in Python, Django, APIs, databases, and version control. Built and deployed real-world projects applying back-end principles, cloud integration, and Agile practices.",
@@ -19,7 +19,7 @@ export const CertifiatesList = [
 
   {
     //heading: " INDIAN STATES",
-    img: metaBackendDeveloper,
+    img: googlecloudcertificate,
     title: "Google Cloud Fundamentals Certificate",
     description:
       "Completed Google's foundational course on cloud computing with Google Cloud. Gained hands-on experience with Compute Engine, App Engine, Cloud Storage, BigQuery, and Kubernetes. Learned core concepts of networking, IAM, security, and scaling applications in the cloud. Deployed real-world solutions using Cloud Marketplace and practiced managing resources through the Google Cloud Console and CLI."
