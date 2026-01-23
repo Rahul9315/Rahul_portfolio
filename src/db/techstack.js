@@ -194,7 +194,7 @@ export const rstudio = {
 
 export const androidstudio = {
   title: "Android Studio",
-  img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Android_Studio_Logo_2024.svg" ,
+  img: "https://img.icons8.com/color/144/android-studio--v3.png" ,
   wid: "70%",
   swid: "40%",
 };
@@ -226,7 +226,7 @@ export const gemini = {
 
 export const playwright = {
   title: "playwright",
-  img: "https://brandfetch.com/playwright.dev?view=library&library=default&collection=logos&asset=idVX2ElrpI&utm_source=https%253A%252F%252Fbrandfetch.com%252Fplaywright.dev&utm_medium=copyAction&utm_campaign=brandPageReferral",
+  img: "https://cdn.brandfetch.io/idpyc8TcWP/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
   wid: "70%",
   swid: "40%",
 };
