@@ -138,6 +138,7 @@ export default function Footer() {
               </motion.div>
             </Flex>
             {/* call */}
+            {/*
             <Flex mt="15px" justify="start">
               <motion.div
                 whileHover={{ scale: 1.1 }}
@@ -158,6 +159,7 @@ export default function Footer() {
                 </Text>
               </motion.div>
             </Flex>
+            */}
             {/* Email */}
             <Flex mt="15px" justify="start">
             <Box w="10%">
