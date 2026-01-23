@@ -13,6 +13,8 @@ import {
   supabaseIcon,
   node,
   kalilinux,
+  docker,
+  gemini,
   machinelearning,
   promptEngineering,
   react,
@@ -23,6 +25,7 @@ import {
   tailwind,
   typescript,
   python,
+  playwright,
 } from "./techstack";
 
 import PortfolioImg from '../images/portfolio.png';
@@ -31,8 +34,18 @@ import NidpsImg from '../images/Network-Intrusion-Detection-System.png';
 import SecureMultithreadedFileTransferSystemImg from '../images/Secure-Multithreaded-File-Transfer-System.png';
 import talkingClockImg from '../images/talking clock.png';
 import ExpenseTrackerImg from '../images/ExpenseTracker.png';
+import projectAtlasImg from '../images/project-atlas.png';
 
 export const ProjectList = [
+  {
+    heading: "Project Atlas",
+    title: "Autonomous AI Job Application System",
+    img: projectAtlasImg,
+    description:
+      "Designed and built an autonomous, containerised system that automates the LinkedIn job application process end-to-end. The system scrapes job listings, evaluates role suitability using AI-based ATS-style screening, and applies via Easy Apply with human-like interaction patterns. Implemented a modular Python architecture orchestrated through a single pipeline, with Docker for reproducibility and Excel-based tracking for application monitoring. Focused on real-world reliability, ethical automation, and system-level design.",
+    techStack: [python, docker,playwright, gemini],
+    gitLink: "https://github.com/Rahul9315/Job_Hunting_AI_Bot.git",
+  },
 
   {
     heading: "Talking Clock",

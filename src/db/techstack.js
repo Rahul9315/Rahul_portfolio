@@ -206,3 +206,27 @@ export const supabaseIcon = {
   wid: "70%",
   swid: "40%",
 };
+
+export const docker = {
+  title: "docker",
+  img: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-docker-a-set-of-coupled-software-as-a-service-logo-color-tal-revivo.png" ,
+  wid: "70%",
+  swid: "40%",
+};
+
+
+export const gemini = {
+  title: "gemini",
+  img: "https://img.icons8.com/fluency/96/gemini-ai.png",
+  wid: "70%",
+  swid: "40%",
+};
+
+
+
+export const playwright = {
+  title: "playwright",
+  img: "https://brandfetch.com/playwright.dev?view=library&library=default&collection=logos&asset=idVX2ElrpI&utm_source=https%253A%252F%252Fbrandfetch.com%252Fplaywright.dev&utm_medium=copyAction&utm_campaign=brandPageReferral",
+  wid: "70%",
+  swid: "40%",
+};
