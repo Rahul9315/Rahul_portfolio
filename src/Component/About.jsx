@@ -57,12 +57,7 @@ export default function About() {
             letterSpacing="1px"
             color={theme.theme.dText}
           >
-             Detail-oriented and analytical Computer Science graduate with a strong foundation
-              in data analysis, network security, and machine learning. Experienced in working with
-              large datasets, extracting insights, and presenting findings using visual dashboards
-              and reports. Adept at Python-based data pipelines, testing, and full-stack
-              development. Passionate about supporting data-driven decision-making through
-              accurate and actionable insights.
+             Detail-oriented and analytical Software Engineer with a strong foundation in software development, system design, and problem-solving. Experienced in building scalable applications, developing robust backend services, and implementing efficient, maintainable code across full-stack environments. Adept at Python-based development, API integration, testing, and performance optimization. Passionate about designing reliable systems and delivering high-quality software solutions that drive real-world impact.
           </Text>
         </Box>
         <Box p="5px 15px" fontWeight="bolder" color="white">
